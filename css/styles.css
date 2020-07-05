@@ -18,6 +18,7 @@ font-family: 'Roboto', sans-serif;
   --accent-color: #2196f3;
   --title-color: #212121;
   --dark-theme-text-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
 
   --main-font: 'Roboto', sans-serif;
 }
@@ -122,6 +123,11 @@ body {
   letter-spacing: 0.06em;
   color: var(--dark-theme-text-color);
   background-color: var(--accent-color);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
 }
 
 .advantages-title {
