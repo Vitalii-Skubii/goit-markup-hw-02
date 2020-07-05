@@ -46,6 +46,16 @@ body {
   color: #000000;
 }
 
+.logo-white {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  color: #ffffff;
+  background-color: aqua;
+}
+
 .logo-blue {
   color: var(--accent-color);
 }
@@ -67,15 +77,25 @@ body {
   color: var(--accent-color);
 }
 
-.adress .adress-link {
+.adress-link-header {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
 
-.adress .adress-link:hover,
-.adress .adress-link:focus {
+.adress-link-header:hover,
+.adress-link-header:focus {
+  color: var(--accent-color);
+}
+
+.adress-link-footer {
+  line-height: 1, 71;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: aqua;
+}
+.adress-link-footer:hover,
+.adress-link-footer:focus {
   color: var(--accent-color);
 }
 
@@ -102,4 +122,66 @@ body {
   letter-spacing: 0.06em;
   color: var(--dark-theme-text-color);
   background-color: var(--accent-color);
+}
+
+.advantages-title {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+.advantages-description {
+  line-height: 1.71;
+}
+
+.activities-title,
+.team-title,
+.clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--title-color);
+}
+
+.activities-descr {
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--dark-theme-text-color);
+  background-color: aqua;
+}
+
+.team-list-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  /* identical to box height */
+  text-align: center;
+  color: var(--title-color);
+}
+
+.team-list-item-descr {
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  color: var(--main-text-color);
+}
+
+.adress-descr {
+  line-height: 1.71;
+  /* or 171% */
+  color: var(--dark-theme-text-color);
+  background-color: aqua;
+}
+
+.join {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--dark-theme-text-color);
+  background-color: aqua;
 }
