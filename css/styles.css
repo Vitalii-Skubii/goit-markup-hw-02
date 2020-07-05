@@ -1,0 +1,77 @@
+/* #212121 text  h + nav
+#000000 text logo
+#2196F3 accent 
+#757575 tel p main
+#FFFFFF background
+rgba(255, 255, 255, 0.6); adress bottom
+
+
+Raleway 700 font logo
+Roboto 400,500,700,900 font main
+
+font-family: 'Raleway', sans-serif; Logo
+font-family: 'Roboto', sans-serif;
+ */
+
+:root {
+  --main-text-color: #757575;
+  --accent-color: #2196f3;
+  --title-color: #212121;
+  --dark-theme-text-color: #ffffff;
+
+  --main-font: font-family: 'Roboto', sans-serif;
+
+}
+body {
+    background-color: #FFFFFF;
+    color: var(--main-text-color);
+    font-family: var(--main-font);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+.link{text-decoration: none;}
+
+.list{list-style: none;}
+
+.logo{
+    font-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+/* identical to box height */
+color: #000000;
+
+}
+
+.logo-blue{
+    color: var(--accent-color);
+}
+
+.nav .nav-link {
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--title-color)
+}
+
+.nav .nav-link:hover,
+.nav .nav-link:focus{
+    color: var(--accent-color)
+}
+
+.nav .nav-current-link{
+    color: var(--accent-color);
+}
+
+.adress .adress-link{
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--main-text-color);
+}
+
+.adress .adress-link:hover,
+.adress .adress-link:focus{
+    color: var(--accent-color);
+}
